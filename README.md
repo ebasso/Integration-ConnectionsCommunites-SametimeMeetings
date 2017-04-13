@@ -3,7 +3,7 @@
 This routine syncronizes IBM Connections Communities and IBM Sametime Meetings Rooms, i. e., for each community created in IBM Connections,
 a meeting room is created in Sametime Meetings.
 
-After creating the Meeting Room, a important bookmark is on Community in Connections. So a link will be show on Overview page of Community.
+After creating the Meeting Room, an important Bookmark is created at Community in Connections. So a link will be show on Overview page of Community.
 
 If user is an Owner is a Community, he will a proprietary on the Meeting Rooms.
  
