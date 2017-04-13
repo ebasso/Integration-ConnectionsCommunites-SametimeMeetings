@@ -11,6 +11,7 @@ However, I was not able to automatically enable Audio / Video, as Sametime Meeti
 
 # How to deploy
 
+
 To use this script you must:
 
 1) Install Python 2.7
@@ -18,7 +19,21 @@ To use this script you must:
 ```
  pip install requests
 ```
-3) Change file SyncCommunitiesAndMeetings.py
+3) Download files ***encodedPassword.py*** and ***SyncCommunitiesAndMeetings.py***
+
+4) Encode the password of wsadmin from Connections, through command
+```
+python encodedPassord.py
+```
+save this result
+
+5) Encode the password of wsadmin from Sametime, through command
+```
+python encodedPassord.py
+```
+save this result
+
+6) Change file SyncCommunitiesAndMeetings.py
 
 replacing IBM Connections url, admin and password.
 
@@ -38,7 +53,7 @@ Save and close.
 
 # Running
 
-4) Run using command 
+7) Run using command 
 
 ```
 python SyncCommunitiesAndMeetings.py
